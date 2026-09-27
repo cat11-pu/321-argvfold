@@ -1,0 +1,14 @@
+{
+  "budget": 1,
+  "options": { "a": "flag", "b": "value" },
+  "option_error_code": "E_UNKNOWN_OPTION",
+  "value_error_code": "E_MISSING_VALUE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "values": [], "rest": [], "pending": "", "literal": false, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "arg", "text": "-a" },
+    { "id": 2, "kind": "arg", "text": "-b" },
+    { "id": 3, "kind": "arg", "text": "file.txt" },
+    { "id": 4, "kind": "arg", "text": "extra" }
+  ]
+}
